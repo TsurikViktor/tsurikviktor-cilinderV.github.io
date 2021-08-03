@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/favicon-star.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<title>Cilinder volumme</title>
+</head>
+<body>
+    <form name="formFormula">
+        <img src="images/obyom-tsilindra.png">
+        <h3>Расчет объема цилиндра</h3>
+        <h4>Радиус (R):</h4> 
+        <input type="text" name="text1" placeholder="0" size=10>
+        <h4>Высота (H):</h4>
+        <input type="text" name="text2" placeholder="0"  size=10>
+        <input type="button" name="butCil" value="Расчитать" onClick="cylinder();">
+        <h3>Объем (V=PI*R^2*H, PI=3.14159):</h3>
+        <input type="text" name="text3" placeholder="0" size=10>
+    </form>
+    <script src="js/customs.js"></script>
+</body>
+</html>
